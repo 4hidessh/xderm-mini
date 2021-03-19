@@ -2,8 +2,8 @@
 clear;echo "######################################"
 echo -e "   Auto installer Xderm-mini GUI\n######################################\n"
 echo "Installing, Tunggu....."
-mkdir -p /var/www/html/xderm /var/www/html/xderm/js /var/www/html/xderm/img /var/www/html/xderm/log
 url="https://raw.githubusercontent.com/ryanfauzi1/xderm-mini_GUI/main"
+/var/www/html/
 wget -O /var/www/html/xderm/index.php $url/index.php -q
 wget -O /var/www/html/xderm/index.html $url/index.html -q
 wget -O /var/www/html/xderm/xderm-mini $url/xderm-mini -q
@@ -19,4 +19,4 @@ echo -e "xderm-mini GUI terinstall.\n\nSilahkan Akses 'http://192.168.1.1/xderm'
 echo -e "Default Authentication\nUsername: admin\nPassword: xderm\n"
 echo -e "Untuk mengganti U/P silahkan edit /root/auth.txt"
 echo "Jangan lupa setting config dulu di webui nya."
-echo "Terima kasih -salam ryan fauzi."
+echo "Terima kasih -salam haha."
