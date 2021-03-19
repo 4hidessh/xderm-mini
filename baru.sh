@@ -3,7 +3,6 @@ clear;echo "######################################"
 echo -e "   Auto installer Xderm-mini GUI\n######################################\n"
 echo "Installing, Tunggu....."
 url="https://raw.githubusercontent.com/ryanfauzi1/xderm-mini_GUI/main"
-/var/www/html/
 wget -O /var/www/html/xderm/index.php $url/index.php -q
 wget -O /var/www/html/xderm/index.html $url/index.html -q
 wget -O /var/www/html/xderm/xderm-mini $url/xderm-mini -q
